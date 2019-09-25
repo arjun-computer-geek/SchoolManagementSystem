@@ -1,14 +1,14 @@
 
 .sidenav {
+  float: left;
     height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 154px;
-    left: 0;
+    width: 15%;
     background-color: rgb(26, 23, 23);
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding-top: 20px;
+    margin-top: 3px;
+    padding-bottom: 20px;
   }
   
   .sidenav a, .dropdown-btn {
