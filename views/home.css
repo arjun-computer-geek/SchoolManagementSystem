@@ -2,3 +2,8 @@
     margin : 0;
     padding: 0;
 }
+.content{
+    float: left;
+    width: 83%;
+    padding: 10px;
+}
