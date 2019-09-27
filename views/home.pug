@@ -11,6 +11,7 @@ html(lang="en")
         include ./navbar/navbar.css
         include ./sidebar/sidebar.css
         include ./footer/footer.css
+        include ./content/home_content.css
 
 
         title Home
@@ -23,7 +24,7 @@ html(lang="en")
         .sidebar
             include ./sidebar/sidebar.pug
         .content
-            h1 home page
+            include ./content/home_content.pug
         .footer
             include ./footer/footer.pug
 

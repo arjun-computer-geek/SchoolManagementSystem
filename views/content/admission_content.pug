@@ -1,7 +1,6 @@
-form.
+h1 Admission Form For New Student
 
-h1 Admission Form For New admission
-
+form(name="admForm",action="submit.php",onsubmit="return dataValidator()",method="post").
 
 div.
 label(class = 'label',for="firstName") FirstName
@@ -110,22 +109,18 @@ form(action="upload.php" , method="post" , enctype="multipart/sign-data") Select
   input(type="file" , name="fileToUpload" , id="fileToUpload", )
   input(type="submit", value="Upload Signature" name="submit")
 
-input(type="submit", value="submit" onclick="submit()") 
+input(type="submit", value="submit" ,name="submit") 
 
-script. 
- function submit(){
-   var inputField = document.getElementsByClassName("input-field");
-   if(inputField.innerText="")
-   alert("Fields can't be left blank");
-   else{
-    alert("Confirm Submission");
-    inputField.innerText="";
-   }
-   
-
-
-
- }
+//- script. 
+//- function dataValidator(){
+//-   var firstname = document.forms["admForm"]["firstName"];
+//-   if(firstname.value == " "){
+//-   alert("Please enter your first name");
+//-   firstname.focus();
+//-   return false;
+//-   }
+//- }
+  
 
 
 

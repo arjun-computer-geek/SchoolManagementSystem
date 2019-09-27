@@ -8,12 +8,14 @@ html(lang="en")
     style
         include ./header/header.css
         include home.css
+        include ./content/image_content.css
         include ./navbar/navbar.css
         include ./sidebar/sidebar.css
         include ./footer/footer.css
 
 
-        title images
+
+        title image
 
     body
         .header
@@ -23,9 +25,10 @@ html(lang="en")
         .sidebar
             include ./sidebar/sidebar.pug
         .content
-            h1 images page...
+            include ./content/image_content.pug
         .footer
             include ./footer/footer.pug
 
         script
             include ./sidebar/sidebar.js
+            include ./content/image_content.js
