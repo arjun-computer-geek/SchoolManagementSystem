@@ -1,24 +1,22 @@
 h1 School Memories And Honours
 
 
- h2(onclick="classrooms(this)") classrooms
- h2(onclick="trips(this)") Trips
- h2(onclick="education(this)") Education
- <div class="main">
- img(class="classrooms",src='image6.jpg')
-img(class="classrooms",src='image5.jpg')
-img(class="classrooms",src='image6.jpg')
-img(class="classrooms",src='image7.jpg')
-</div>
+span(class="btn"): b Classrooms
+span(class="btn"): b Trips
+span(class="btn"): b Education
+
+div(id="classroom")
+    img(src='image6.jpg')
+    img(src='image5.jpg')
+    img(src='image6.jpg')
+    img(src='image7.jpg')
 
 
-<div class="main">
-img(class="trips",src='image3.jpg')
-</div>
+div(id="trip")
+    img(src='image3.jpg')
 
 
-<div class="main">
-img(class="education",src='image2.jpg')
-</div>
+div(id="education")
+    img(src='image2.jpg')
 
 

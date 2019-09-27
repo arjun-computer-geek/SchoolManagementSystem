@@ -7,19 +7,20 @@
     margin-top:10px;
 }
 
-h2{
+span{
     background-color:green;
     display:inline-block;
-    /* border:1px solid black; */
     border-radius:25px ;
     padding:10px;
     margin:20px;
     color:white;
+    font-size: 20pt;
 }
 
-h2:hover {
+span:hover {
     color:black;
     background-color:lightgreen;
+    cursor: pointer;
 }
 
 .main > img{
