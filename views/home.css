@@ -7,3 +7,9 @@
     width: 83%;
     padding: 10px;
 }
+
+body {
+    background-image: url("blackboard.jpg");
+    overflow-x: hidden;
+    overflow-y: auto;
+}
