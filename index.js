@@ -33,4 +33,8 @@ app.get('/librarian_login', (req, res) =>{
 app.get('/admin_login', (req, res) =>{
     res.render('login')
 })
+
+app.get('/image' , (req,res) => {
+    res.render('image')
+})
 app.listen(8000)
