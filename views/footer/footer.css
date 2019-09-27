@@ -1,7 +1,11 @@
-.footer {
-   clear: both;
-   height: 50px;
+#pencil {
    width: 100%;
-   text-align: center;
-   background-color: dimgray;
-  }
+   height: auto;
+   position: relative;
+}
+
+#footer {
+   color: white;
+   margin-left: 300px;
+}
+
